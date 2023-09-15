@@ -3,6 +3,8 @@ management:
     redis:
       enabled: false
 
+where-for-dinner.crawler.service.identifier: wfd-crawler
+
 spring: 
   application:
     name: where-for-dinner-search-proc
