@@ -5,9 +5,9 @@ where-for-dinner:
   ui:
     uri: http://where-for-dinner-ui.${where-for-dinner.namespace}/
   search:
-    uri: http://where-for-dinner-search.${where-for-dinner.namespace}/
+    uri: http://wfd-search.${where-for-dinner.namespace}/
   availability:
-    uri: http://where-for-dinner-availability.${where-for-dinner.namespace}/
+    uri: http://wfd-availability.${where-for-dinner.namespace}/
 
 spring:
   application:

@@ -38,7 +38,7 @@ spec:
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: where-for-dinner-search
+  name: wfd-search
   namespace: apps
   labels:
     apps.tanzu.vmware.com/workload-type: web
@@ -97,7 +97,7 @@ spec:
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: where-for-dinner-search-proc
+  name: wfd-search-proc
   namespace: apps
   labels:
     apps.tanzu.vmware.com/workload-type: web
@@ -147,7 +147,7 @@ spec:
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: where-for-dinner-notify
+  name: wfd-notify
   namespace: apps
   labels:
     apps.tanzu.vmware.com/workload-type: web
@@ -192,7 +192,7 @@ spec:
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: where-for-dinner-availability
+  name: wfd-availability
   namespace: apps
   labels:
     apps.tanzu.vmware.com/workload-type: web
@@ -289,7 +289,7 @@ spec:
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: where-for-dinner-crawler
+  name: wfd-crawler
   namespace: apps
   labels:
     apps.tanzu.vmware.com/workload-type: server
